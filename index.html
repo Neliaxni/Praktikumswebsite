@@ -63,6 +63,9 @@
 	<p> Ingeworpen :
 		<input type="text" id="toonbedrag" value="0.0" />
 	</p>
+	
+<input  type="button" value= "0.05" onClick="a();">
+<input  type="text" id="hallo";>
 
 <script>
 function b(value)
@@ -72,6 +75,12 @@ var prevTotal = $('#toonbedrag').val();
 var total=parseFloat(prevTotal) + parseFloat(value);
  $('#toonbedrag').val(total.toFixed(2));
 	}
+	  
+  function a()
+	  document.getElementbyid("hallo").value="Tschüss";
+  
+  </head>
+
 		</script>
 	</body>
 </html>
