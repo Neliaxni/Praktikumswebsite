@@ -4,7 +4,7 @@ function a(){
   	}
 
 	function zufallsgenerator(){
-			document.getElementById("demo").innerHTML = Math.floor(Math.random() *6);
+			document.getElementById("demo").src = Bilder[Math.floor(Math.random() *6)];
 	}
 	
 		
