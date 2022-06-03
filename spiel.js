@@ -3,7 +3,7 @@ function a(){
 	 	 document.getElementById("hallo").value="Tschüss";
   	}
 
-	function zufallsgenerator(){
+	function Zufallsgenerator(){
 			document.getElementById("demo").src = Bilder[Math.floor(Math.random() *6)];
 	}
 	
