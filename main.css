@@ -21,5 +21,8 @@
 			margin-top:50px;
 		       }
 body {
-	background-image: url('');
+	background-image: url('istockphoto-1206505233-612x612.jpg');
+	 background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
