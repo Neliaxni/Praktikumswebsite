@@ -1,4 +1,4 @@
   	function a(){
-	 			 document.getElementById("hallo").value="Tschüss";
-  				}
+	 	 document.getElementById("hallo").value="Tschüss";
+  	}
 
